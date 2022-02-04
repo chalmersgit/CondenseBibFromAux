@@ -84,7 +84,7 @@ def condenseBibFromAux(bibFile, auxFile, outputFn='_outputbib.bib'):
 
 
 if __name__ == "__main__":
-	sys.argv = ['', '--bib', 'bibFile.bib', '--aux', 'auxFile.aux', '--output', '_outputBibFile.bib']
+	#sys.argv = ['', '--bib', 'bibFile.bib', '--aux', 'auxFile.aux', '--output', '_outputBibFile.bib']
 
 	parser = argparse.ArgumentParser(description='Test.')
 	parser.add_argument('--bib', action='store', type=str, help='.bib file', required=True)
