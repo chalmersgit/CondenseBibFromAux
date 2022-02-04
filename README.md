@@ -5,4 +5,4 @@ Removes entries from a .bib file that were not used by your .tex file. It uses t
 python condenseBibFromAux.py --bib bibFile.bib --aux auxFile.aux --output _newBib.bib
 
 # Limitations
-The .bib file parser "getAllBibEntries(...)" was thrown together without much testing. You could rewrite this with something like pyparsing for something more robust. 
+The .bib file parser "getAllBibEntries(...)" was thrown together without much testing. You could rewrite this with something like pyparsing for more robust results. 
